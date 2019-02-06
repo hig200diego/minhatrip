@@ -511,6 +511,23 @@ article {
 	.container-footer p {
 		word-wrap: break-word;
 	}
+
+	.container-article {
+		padding: 40px;
+	}
+
+	.container-article .titulo {
+		font-size: 30px;
+	}
+
+	.corpo-texto img {
+		max-width: 100%;
+		width: 400px;
+	}
+
+	.corpo-texto p {
+		margin-top: 30px;
+	}
 }
 
 
