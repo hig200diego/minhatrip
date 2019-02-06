@@ -515,9 +515,45 @@ article {
 
 
 @media (max-width: 767px) {
-     /* estilos aqui */
+    .container-header {
+    	padding: 40px;
+    }
 
-     
+    .container {
+    	flex-direction: column;
+    	justify-content: center;
+    	padding: 40px;
+    }
+
+    .intro-foto {
+    	justify-content: center;
+    }
+
+    .titulo {
+    	text-align: center;
+    }
+
+    .quadro {
+    	width: 400px;
+    	height: 490px;
+    }
+
+    .quadro img {
+    	width: 360px;
+    	height: 400px;
+    }
+
+    .container-lugares {
+    	flex-direction: column;
+    }
+
+    .container-lugares div {
+    	margin-top: 20px;
+    }
+
+    .container-newsletter {
+    	flex-direction: column;
+    }   
 }
 
 
