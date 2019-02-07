@@ -409,6 +409,10 @@ article {
 	margin-top: 50px;
 }
 
+.container-article p {
+	margin-top: 30px;
+}
+
 .corpo-texto img {
 	margin-top: 20px;
 	max-width: 100%;
@@ -432,12 +436,13 @@ article {
 	}
 
 	.container-header .logo {
-		margin-top: 20px;
+		margin-top: 10px;
 		margin-right: 70%;
 	}
 
 	header nav ul {
-		margin-top: -20px;
+		margin-top: -40px;
+		margin-left: 40px;
 	}
 
 	.intro-foto {
@@ -474,7 +479,7 @@ article {
 	}
 
 	.quadro {
-		width: 210px;
+		width: 200px;
 		height: 390px;
 	}
 
@@ -485,6 +490,10 @@ article {
 
 	.legenda {
 		font-size: 25px;
+	}
+
+	.container-barra {
+		padding: 20px;
 	}
 
 	.container-lugares {
