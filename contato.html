@@ -7,13 +7,75 @@
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
-<body>
+<body style="background-color:#28536B;">
+	<!--header-->
+	<header>
+		<div class="container-header">
+			<div class="logo">Minha <span class="viagem">Trip</span></div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="galeria.html">Galeria</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--fim do header-->
 
-	<div class="container">
-		
+	<div class="wrapper">
+		<h1>Contate-me</h1>
+		<div class="endereco">
+			<div class="inner-endereco">
+				<ion-icon name="pin" class="icons"></ion-icon>
+				<p>São Paulo - SP</p>
+			</div>
+			<div class="inner-endereco">
+				<ion-icon name="mail" class="icons"></ion-icon>
+				<p>hig200diego@gmail.com</p>
+			</div>
+			<div class="inner-endereco">
+				<ion-icon name="phone-portrait" class="icons"></ion-icon>
+				<p>(54)99140 0044</p>
+			</div>
+		</div>
+
+		<div class="form">
+			<div class="form-titulo">
+				Deixe sua mensagem
+			</div>
+
+			<div class="input-form">
+				<div class="input">
+					<input type="text" placeholder="Nome">
+				</div>
+				<div class="input">
+					<input type="email" placeholder="E-mail">
+				</div>
+			</div>
+
+			<div class="inner-msg">
+				<div class="msg">
+					<textarea placeholder="Escreva sua mensagem aqui."></textarea>
+				</div>
+			</div>
+
+			<div class="btn">
+				Enviar mensagem
+			</div>
+	    </div>
+
+	    <div class="socila-media">
+	    	<div class="inner-social">
+	    		<ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+	    		<ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+	    		<ion-icon name="logo-twitter" class="social-icon"></ion-icon>
+	    		<ion-icon name="logo-vk" class="social-icon"></ion-icon>
+	    	</div>
+	    	<div class="inner-social"></div>	
+	    </div>
 	</div>
+<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 </body>
 </html>
